@@ -1,67 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Roboto+Mono:ital@1&display=swap");
 
-
-
-.btn{
-
-    
-    margin: 10px 15px;
-    padding: 20px 20px;
-    width: 50%;
-
+.btn {
+  margin: 10px 15px;
+  padding: 20px 20px;
+  width: 50%;
 }
 
-.click:hover{
-
-    background-color: aqua;
+.click:hover {
+  background-color: aqua;
 }
 
-
-p{
-    font-size: 25px;
-    font-family: 'Lato', sans-serif;
+p {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
 }
 
-.lorem{
-
-    border: 1px solid black;
-    margin: 10px 15px;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    
-
+.lorem {
+  border: 1px solid black;
+  margin: 10px 15px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
-.item{
-
-    border: 1px solid black;
-    margin: 10px 20px;
-    padding: 10px 20px;
+.item {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
 }
 
-.vehical{
-
-    border: 1px solid red;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    border-collapse: collapse;
-
+.vehical {
+  border: 1px solid red;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-collapse: collapse;
 }
 
-
-.make{
-
-    border: 1px solid red;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    border-collapse: collapse;
-    
-
+.make {
+  border: 1px solid red;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  border-collapse: collapse;
 }
 
+th,
+td {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
 
+h2 {
+  text-align: center;
+}
 
-
-
+h2:hover {
+  font-size: 50px;
+  color: red;
+}
