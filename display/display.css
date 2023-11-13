@@ -71,11 +71,27 @@ ul>li{
  
 }
 
+
+
+.text{
+
+   color: red;
+}
+
+.text:hover{
+
+    color: blue;
+}
+
+
 .inline>p:hover{
 
     color: green;
+
     
 }
+
+
 
 .inline>ul{
 
