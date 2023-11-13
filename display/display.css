@@ -1,0 +1,110 @@
+
+
+.block>h2{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2:hover{
+
+    color: rebeccapurple;
+
+}
+
+.block>p{
+
+    border:1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.block>ul{
+
+    border:1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    
+}
+
+ul>li{
+
+    border: 1px solid black;
+    margin: 10px 15px;
+    padding: 10px 15px;
+
+}
+
+.inline>h2{
+
+    border: 1px solid red;
+    margin: 20px 20px;
+    padding: 20px 30px;
+    display: inline-block;
+    height: 100px;
+    width: 500px;
+    
+}
+
+.inline>h2:hover{
+
+    color: red;
+    background-color: antiquewhite;
+   
+}
+
+.inline>p{
+
+    border: 1px solid red;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    background-color: antiquewhite;
+ 
+}
+
+.inline>p:hover{
+
+    color: green;
+    
+}
+
+.inline>ul{
+
+    border: 1px solid red;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    height: 200px;
+    width: 100px;
+}
+
+.inline>ul>li{
+
+    border-radius: 5px;
+    border-color: blue;
+}
+ul>.a:hover{
+
+    background-color: aqua;
+}
+
+.b:hover{
+
+    background-color: yellow;
+}
+
+li:nth-child(even){
+
+    background-color: red;
+}
+
