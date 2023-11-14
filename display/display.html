@@ -1,60 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="display.css">
+    <link rel="stylesheet" href="display.css" />
+  </head>
 
-</head>
+  <!-- inline element: img, span, <a> , <buttton> -->
+  <!-- convert them to inline block by changing display: property. practice block, inline, inline-block -->
+  <!-- task-1: take the div, use this divs to see the difference of inline element, block element and inline-block element -->
 
-
-
-<!-- inline element: img, span, <a> , <buttton> -->
-    <!-- convert them to inline block by changing display: property. practice block, inline, inline-block -->
-    <!-- task-1: take the div, use this divs to see the difference of inline element, block element and inline-block element -->
-
-<body>
-    
-
-    <div class="block">
-
+  <body>
+    <div>
+      <div class="block">
         <h2>Welcome to the Page</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eius sed repellendus.
-             Eum saepe cupiditate perferendis laborum fugit, nesciunt et?</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eius
+          sed repellendus. Eum saepe cupiditate perferendis laborum fugit,
+          nesciunt et?
+        </p>
 
-        
         <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
         </ul>
-    </div>
+      </div>
 
-
-
-    <div class="inline">
-
+      <div class="inline">
         <h2>Welcome to the Page</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eius sed repellendus.
-             Eum saepe cupiditate perferendis laborum fugit, nesciunt et?
-             <span class="text">  We Added Lorem 20 words.</span></p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eius
+          sed repellendus. Eum saepe cupiditate perferendis laborum fugit,
+          nesciunt et? <span class="text"> We Added Lorem 20 words.</span>
+        </p>
 
-        
         <ul>
-            <li class="a">1</li>
-            <li class="b">2</li>
-            <li class="c">3</li>
-            <li>4</li>
+          <li class="a">1</li>
+          <li class="b">2</li>
+          <li class="c">3</li>
+          <li>4</li>
         </ul>
+      </div>
+
+
+      <div class="third">
+
+        <img src="img1.webp" alt="" class="img-1">
+
+        <img src="sport.webp" alt="" class="img-2">
+        
+        <img src="McLaren.webp" alt="" class="img-3">
+
+      </div>
+
+      <div class="fourth">
+
+        <table class="vehicl">
+
+            <tr class="car1">
+                <th>Porche</th>
+                <th>Lamborghini</th>
+                <th>McLaren</th>
+            </tr>
+
+            <tr class="car2">
+                <td>1500 hp</td>
+                <td>1300 hp</td>
+                <td>1000 hp</td>
+            </tr>
+
+            <tr class="car2">
+                <td>400 hp</td>
+                <td>860 hp</td>
+                <td>900 hp</td>
+            </tr>
+        </table>
+
+
+        <table class="price">
+            <tr>
+                <th>Price</th>
+                <th>Year</th>
+            </tr>
+
+
+            <tr>
+                <td>2022</td>
+                <td>400,00</td>
+            </tr>
+
+
+            <tr>
+                <td>2023</td>
+                <td>500,000</td>
+            </tr>
+
+             
+        </table>
+      </div>
+
+
+
+      <div class="fifth">
+
+        <a href="" class="anc1">Explore</a>
+        <button><a href="" class="anc2">Next Page</a></button>
+        <a href="" class="anc3">Previous Page</a>
+        <button class="anc4">Home Page</button>
+      </div>
+
+      <div class="sixth"></div>
     </div>
-
-
-
-
-</body>
+  </body>
 </html>

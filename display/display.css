@@ -124,3 +124,149 @@ li:nth-child(even){
     background-color: red;
 }
 
+
+/* Newly added div will go bellow */
+
+
+.third{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.img-1{
+
+    /* border: 1px solid black; */
+    margin: 10px 20px;
+    padding: 10px 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.img-2{
+
+    /* border: 1px solid black; */
+    margin: 10px 10px;
+    padding: 10px 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.img-3{
+
+    /* border: 1px solid black; */
+    margin: 10px 10px;
+    padding: 10px 10px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.fourth{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+.vehicl{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-collapse: collapse;
+
+}
+
+.car-1>th{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    
+
+}
+
+
+.price{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-collapse: collapse;
+
+}
+
+.fifth{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    /* border-collapse: collapse; */
+    display: block;
+
+}
+
+
+.anc1{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: block;
+    
+    /* border-collapse: collapse; */
+    /* border-collapse: collapse; */
+    
+
+}
+
+
+
+.anc1:hover{
+
+    background-color: aqua;
+
+}
+
+
+.anc2{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: block;
+    
+    
+    /* border-collapse: collapse; */
+    
+    
+
+}
+
+.anc2:hover{
+
+    color: red;
+    background-color: yellow;
+}
+
+
+.anc3{
+
+    
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: block;
+
+}
+
+.anc4:hover{
+
+    color: red;
+    background-color: yellowgreen;
+}
