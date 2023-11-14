@@ -201,6 +201,11 @@ li:nth-child(even){
 
 }
 
+th,td{
+
+    border: 1px solid black;
+}
+
 .fifth{
 
     border: 1px solid black;

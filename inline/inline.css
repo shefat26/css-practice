@@ -1,0 +1,29 @@
+
+
+.second{
+
+    margin: 30px 10px;
+}
+.second>a{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: block;
+}
+
+
+.third{
+
+    margin:30px 20px;
+
+}
+
+.third>a{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
