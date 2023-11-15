@@ -1,161 +1,178 @@
-/* 
-*{
-
-    margin: 1px solid black;
-    padding: 5px;
-    /* color: red; */
-    /* border-bottom: 1px solid black; */
-
-} */
-
-
-div{
-
-    border: 1px solid black;
-    margin: 10px 20px;
-    padding: 10px 20px;
+div {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
 }
 
-
-.h-tag{
-
-    border: 1px solid black;
-    margin: 10px 5px;
-    padding: 10px 5px;
-    border-collapse: collapse;
-    display: inline-block;
+.h-tag {
+  border: 1px solid black;
+  margin: 10px 5px;
+  padding: 10px 5px;
+  border-collapse: collapse;
+  display: inline-block;
 }
 
-.h-tag:hover{
-
-    color: yellowgreen;
-    background-color: bisque;
+.h-tag:hover {
+  color: yellowgreen;
+  background-color: bisque;
 }
 
-
-p{
-
-    border: 1px solid black;
-    margin: 20px 20px;
-    padding: 10px 20px;
-    border-collapse: collapse;
-    
+p {
+  border: 1px solid black;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  border-collapse: collapse;
 }
 
-span:hover{
-
-    font-weight: 900;
-    color: red;
+span:hover {
+  font-weight: 900;
+  color: red;
 }
 
-
-.one{
-
-    border: 1px solid black;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    border-collapse: collapse;
-    text-align: center;
-    font-weight: 800;
+.one {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: 800;
 }
-.two{
-
-    border: 1px solid black;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    border-collapse: collapse;
-    text-align: center;
-    font-weight: 800;
+.two {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: 800;
 }
 
-th,td{
-
-    border: 1px solid black;
-   color: red ;
-   background-color: antiquewhite;
-
+th,
+td {
+  border: 1px solid black;
+  color: red;
+  background-color: antiquewhite;
 }
 
-th:hover{
-
-    color: blue;
-    
+th:hover {
+  color: blue;
 }
 
-td:hover{
-
-    color: blue;
-    background-color: yellowgreen;
+td:hover {
+  color: blue;
+  background-color: yellowgreen;
 }
 
-.prog{
-
-    border: 1px solid black;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    border-collapse: collapse;
+.prog {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-collapse: collapse;
 }
-.comp{
-
-    border: 1px solid black;
-    margin: 20px 20px;
-    padding: 10px 20px;
-    display: inline-block;
-    border-collapse: collapse;
+.comp {
+  border: 1px solid black;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  border-collapse: collapse;
 }
 
-#lang{
-
-    color: green;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    font-weight: 600;
-
+#lang {
+  color: green;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  font-weight: 600;
 }
-#field{
-
-    color: yellowgreen;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    font-weight: 600;
-    
-
+#field {
+  color: yellowgreen;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  font-weight: 600;
 }
 
-
-.a:hover{
-
-    color: blue;
+.a:hover {
+  color: blue;
 }
-.b:hover{
-
-    color: red;
+.b:hover {
+  color: red;
 }
-.c:hover{
-
-    color: orange;
+.c:hover {
+  color: orange;
 }
-.d:hover{
-
-    color: red;
+.d:hover {
+  color: red;
 }
-.e:hover{
-
-    color: rgb(153, 51, 153);
+.e:hover {
+  color: rgb(153, 51, 153);
 }
-.f:hover{
-
-    color: orangered;
+.f:hover {
+  color: orangered;
 }
 
+/*  Inline Element Design Goes here */
 
+.second > h2 {
+  color: red;
+}
 
+a {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: block;
+  border-collapse: collapse;
+}
 
+a:hover {
+  color: green;
+  font-weight: 900;
+}
 
+button {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: block;
+  border-collapse: collapse;
+}
 
+button:hover {
+  color: red;
+  background-color: bisque;
+}
 
+img {
+  border: 1px solid black;
+  margin: 10px 5px;
+  padding: 10px 5px;
+  display: inline-block;
+  border-collapse: collapse;
+  height: 300px;
+  width: 300;
+}
 
+select {
+  border: 1px solid black;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: block;
+  border-collapse: collapse;
+}
 
+select:hover {
+  color: aqua;
+  background-color: antiquewhite;
+}
+
+textarea {
+  text-align: center;
+  margin: 20px;
+  padding: 10px 5px;
+}
+
+textarea:hover {
+  color: red;
+  font-weight: 900;
+}
