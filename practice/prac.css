@@ -1,28 +1,158 @@
-
+/* 
 *{
 
-    margin: 0;
+    margin: 1px solid black;
     padding: 5px;
+    /* color: red; */
+    /* border-bottom: 1px solid black; */
+
+} */
+
+
+div{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+
+.h-tag{
+
+    border: 1px solid black;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+.h-tag:hover{
+
+    color: yellowgreen;
+    background-color: bisque;
+}
+
+
+p{
+
+    border: 1px solid black;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    border-collapse: collapse;
+    
+}
+
+span:hover{
+
+    font-weight: 900;
     color: red;
-    border-bottom: 1px solid black;
-
-}
-
-#head:hover{
-
-    color: aqua;
-}
-
-h1:hover{
-
-    color: blue ;
 }
 
 
+.one{
 
-h1{
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 800;
+}
+.two{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: 800;
+}
+
+th,td{
+
+    border: 1px solid black;
+   color: red ;
+   background-color: antiquewhite;
+
+}
+
+th:hover{
+
+    color: blue;
+    
+}
+
+td:hover{
+
+    color: blue;
+    background-color: yellowgreen;
+}
+
+.prog{
+
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-collapse: collapse;
+}
+.comp{
+
+    border: 1px solid black;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+#lang{
+
     color: green;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+
 }
+#field{
+
+    color: yellowgreen;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+    
+
+}
+
+
+.a:hover{
+
+    color: blue;
+}
+.b:hover{
+
+    color: red;
+}
+.c:hover{
+
+    color: orange;
+}
+.d:hover{
+
+    color: red;
+}
+.e:hover{
+
+    color: rgb(153, 51, 153);
+}
+.f:hover{
+
+    color: orangered;
+}
+
+
+
 
 
 
