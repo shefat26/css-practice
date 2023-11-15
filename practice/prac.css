@@ -46,12 +46,13 @@ span:hover {
   border-collapse: collapse;
   text-align: center;
   font-weight: 800;
+  
 }
 
 th,
 td {
   border: 1px solid black;
-  color: red;
+  color: red ;
   background-color: antiquewhite;
 }
 
@@ -118,11 +119,14 @@ td:hover {
 }
 
 a {
+
   border: 1px solid black;
   margin: 10px 20px;
   padding: 10px 20px;
   display: block;
   border-collapse: collapse;
+  text-decoration: none;
+
 }
 
 a:hover {
@@ -148,9 +152,10 @@ img {
   margin: 10px 5px;
   padding: 10px 5px;
   display: inline-block;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
   height: 300px;
-  width: 300;
+  width: 200px;
+  object-fit: cover;
 }
 
 select {
