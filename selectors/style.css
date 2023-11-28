@@ -1,0 +1,45 @@
+
+
+.grand .head{
+
+    color: red;
+}
+
+
+/* p.para{
+
+    color: red;
+}
+
+h2.head{
+
+    color: blue;
+} */
+
+div+p{
+
+    color: green;
+}
+
+.flex{
+
+    display: flex;
+}
+.p-1{
+
+    padding: 5px;
+}
+
+.text-center{
+
+    text-align: center;
+}
+
+.text-blue{
+
+    color: blue;
+}
+
+.b-1{
+    border: 1px solid black;
+}
