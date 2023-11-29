@@ -1,0 +1,47 @@
+
+.clas{
+    border: 1px dashed black;
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+    height: 20vh;
+    position: relative;
+
+}
+
+.abs1{
+
+    padding: 10px 20px;
+    background-color: red;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.abs2{
+    padding: 10px 20px;
+    background-color: green;
+    position: absolute;
+    right: 900px;
+    
+    top: 70px;
+}
+
+
+.abs3{
+
+    padding: 10px 20px;
+    background-color: orange;
+    position: absolute;
+    left: 8px;
+    bottom: 5px;
+}
+
+.abs4{
+
+    padding: 10px 20px ;
+    background-color: purple;
+    position: absolute;
+    right: 600px;
+    bottom: 50px;
+}
+
