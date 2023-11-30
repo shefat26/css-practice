@@ -1,0 +1,87 @@
+
+
+.abs{
+
+    border: 1px dashed black;
+    margin: 10px 20px;
+    padding: 50px;
+    position: relative;
+    background-color: aqua;
+    
+}
+
+
+.btn1{
+
+    background-color: red;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+
+}
+.btn2{
+
+    background-color: rgb(138, 138, 6);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.btn3{
+
+    color: green;
+    position: absolute;
+    left: 3px;
+    top: 0px;
+
+}
+.btn4{
+
+    background-color: purple;
+    position: absolute;
+    left: 800px;
+    bottom: 40px;
+
+}
+.btn5{
+
+    background-color: rgb(78, 78, 241);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+
+
+.second{
+
+    border: 1px dashed black;
+    margin: 10px 20px;
+    padding: 50px;
+    position: relative;
+    background-color: bisque;
+}
+
+.atag1{
+
+    color: blue;
+    position: absolute;
+    right: 5px;
+    top: 10px;
+
+}
+.atag2{
+
+    color: green;
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+
+}
+.atag3{
+
+    color: purple;
+    position: absolute;
+    right: 500px;
+    bottom: 20px;
+
+}

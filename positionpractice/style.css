@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.parent{
+
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    /* display: flex; */
+    font-family: 'Roboto', sans-serif;
+    height: 50vh;
+    position: relative;
+}
+
+.child1{
+
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    /* width: 50%; */
+    height: 25vh;
+    
+
+}
+
+p{
+    border: 1px solid black;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* width: 50%; */
+    width: 20ch;
+}
+
+h1{
+
+    font-size: 50px;
+    position: absolute;
+    right: 700px;
+    top: 50px;
+    color: orange;
+
+}
+.para1{
+
+    background-color: aqua;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.para2{
+
+    background-color: red;
+    position: absolute;
+    left: 20px;
+    bottom: 200px;
+}
+.select{
+
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    position: absolute;
+    right: 100px;
+    bottom: 160px;
+
+    background-color: bisque;
+}
+
+.child4{
+
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    /* width: 100px; */
+    position: absolute;
+    color: aqua;
+    right: 300px;
+    bottom: 160px;
+
+}
+.child3{
+
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    /* width: 100px; */
+    position: absolute;
+    /* color: aqua; */
+    left: 50px;
+    top: 260px;
+    /* text-decoration: none; */
+
+}
+
+a{
+
+    text-decoration: none;
+    color: red;
+}
+
+button{
+    color: aqua;
+    background-color: bisque;
+}
