@@ -1,0 +1,22 @@
+
+body{
+
+    height: 2000px;
+}
+
+/* .parent{
+
+    margin: 10px 20px;
+    padding: 10px 20px;
+
+
+} */
+
+.parent{
+
+    position: sticky;
+    background-color: aqua;
+    top: 0;
+   
+
+}
